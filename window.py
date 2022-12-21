@@ -70,7 +70,7 @@ def evolution_launch(red=170):
         population, logbook = algorithms.eaSimple(population, toolbox,
                                                   cxpb=crossover_probability,
                                                   mutpb=mutation_probability,
-                                                  ngen=i + 1,
+                                                  ngen=1,
                                                   # stats=stats,
                                                   verbose=False)  # if uncomment stats change to true)
         for n in range(25):
